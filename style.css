@@ -1,0 +1,64 @@
+
+
+body {
+  background-color:lightblue; 
+  height:100vh;\
+  width: 100vh;
+}
+
+header {
+  text-align: center;
+  background-color:dodgerblue;
+}
+
+header h1 {
+  font-size: 70px;
+  color: black
+}
+
+header h2 {
+  font-size: 40px;
+  color:black;
+}
+
+
+main > h3 {
+  padding: 10px;
+}
+
+main > h3,
+main > p,
+main > article,
+footer {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main ul {
+margin-left: auto;
+margin-right: auto;
+width: 10%;
+}
+
+main ol {
+  margin: auto;
+  width: 1%;
+}
+
+img { 
+  height: 50%; 
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color:dodgerblue
+}
+
+hr {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
