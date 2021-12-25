@@ -1,25 +1,24 @@
-
-
 body {
   background-color:lightblue; 
-  height:100vh;\
-  width: 100vh;
-}
+  height:100vh;
+  width: 100vw;
+}/*changes the color of the page and sizing of page*/
 
 header {
   text-align: center;
   background-color:dodgerblue;
-}
+}/*centers the header and changes the background color of it*/
 
 header h1 {
   font-size: 70px;
-  color: black
-}
+  color: black;
+  margin: auto;
+}/*configs h1*/
 
 header h2 {
   font-size: 40px;
   color:black;
-}
+}/*configs h2*/
 
 
 main > h3 {
@@ -32,18 +31,28 @@ main > article,
 footer {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-}
+}/*takes everything that is word related in main and put it center of the page while changing the font style to the one selected*/
 
 main ul {
 margin-left: auto;
 margin-right: auto;
 width: 10%;
+}/* this should have anything in unorder list(ul) center of the page*/
+
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color:blue;
 }
 
 main ol {
   margin: auto;
   width: 1%;
-}
+}/* This should have anything in order list(ol) center of the page */
+
+
 
 img { 
   height: 50%; 
@@ -51,14 +60,14 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}/* sizes the image and centers it*/
 
 footer {
   background-color:dodgerblue
-}
+}/*changes the background of the footer*/
 
 hr {
 margin-top: 40px;
 margin-bottom: 40px;
-}
+}/*the spacing from the top and bottom of the horizontal line(hr)*/
 
