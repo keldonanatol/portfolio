@@ -1,0 +1,10 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#submit {
+    margin-top: 50px;
+}
+ 
